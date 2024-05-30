@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 *{
-  border: 0px;
-  padding: 0px;
+  padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
@@ -24,14 +25,32 @@ body{
 #card
 {
   border:2px solid rgb(200, 194, 194);
-  width: 90%;
+  width: 85%;
   padding: 10px;
   margin: 20px 0px;
-  box-shadow:2px 2px 18px 2px gray ;
+  box-shadow:1px 1px 15px 1px rgb(248, 245, 245) ;
 }
 .selfText
 {
   word-wrap: break-word;
+  width: 100%;
+}
+/* p{
+  display: flex;
+  margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-inline-start: 0%;
+    margin-inline-end: 0%;
+    unicode-bidi: plaintext;
+  width: 100%;
+  word-wrap: break-word;
+} */
+code 
+{
+  display: block;
+  white-space: pre-wrap; /* Preserve white space and wrap lines */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  max-width: 100%;
 }
 #inside
 {
